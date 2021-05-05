@@ -25,3 +25,5 @@ export default function Cube() {
     return <div className="Cube-container" ref={containerRef}></div>
 }
 ```
+
+4. Add some [tests](https://github.com/makc/react-three-example/blob/master/src/App.test.js) if you feel like.

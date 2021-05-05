@@ -26,4 +26,8 @@ export default function Cube() {
 }
 ```
 
+![voila](https://user-images.githubusercontent.com/242577/117182989-4f9a0580-add7-11eb-9891-eadc13d63f88.png)
+
 4. Add some [tests](https://github.com/makc/react-three-example/blob/master/src/App.test.js) if you feel like.
+
+![pass](https://user-images.githubusercontent.com/242577/117182995-50cb3280-add7-11eb-8f37-9b1d9d91fff8.png)

@@ -10,7 +10,7 @@ export function mount( container ) {
         container.insertBefore( renderer.domElement, container.firstChild );
         resize();
     } else {
-        renderer.domElement.parentNode.removeChild( renderer.domElement );
+        renderer.domElement.remove();
     }
 }
 ```

@@ -8,7 +8,7 @@ import '@testing-library/jest-dom';
 
 HTMLCanvasElement.prototype.getContext = function() {
 	return {
-		getShaderPrecisionFormat: function() { return { precision: 36338 } },
+		getShaderPrecisionFormat: function() { return { precision: 23 } },
 		getParameter: function() { return { indexOf: function() { return -1 } } },
 		getExtension: function() { return {} },
 		canvas: { width: 1, height: 1 },

@@ -74,7 +74,7 @@ export function mount( container ) {
 
 	} else {
 
-		renderer.domElement.parentNode.removeChild( renderer.domElement );
+		renderer.domElement.remove();
 
 	}
 
